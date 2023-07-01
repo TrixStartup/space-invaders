@@ -49,7 +49,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background: url('img/startScreenBackground.png');
+    background: url('/img/startScreenBackground.png');
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
@@ -69,7 +69,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background: url('img/startScreenBackground.png');
+    background: url('/img/startScreenBackground.png');
     background-size: contain;
     background-repeat: no-repeat;
     display: none;
