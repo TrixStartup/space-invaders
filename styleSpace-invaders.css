@@ -1,84 +1,29 @@
-/* .container1{
-    max-width: 1078px;
-    margin: auto;
-    width: 100%;
-} */
-
-.Start{
-    position: absolute;
-    color: white;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    left: 50%;
+.grid {
+	width: 300px;
+	height: 300px;
+	border: solid black 1px;
+	display: flex;
+	flex-wrap: wrap;
 }
 
-.Restart{
-    position: absolute;
-    color: white;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    left: 50%;
+.grid div {
+	width: 20px;
+	height: 20px;
 }
 
-#parentDiv{
-    max-width: 1078px;
-    margin: auto;
-    width: 100%;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    font-size: 14px;
+.invader {
+	background-color: green;
+	border-radius: 10px;
 }
 
-#scoreContainer{
-    position: absolute;
-    z-index: 10;
-    color: white;
-    left: 10px;
-    top: 10px;
-    margin: 0;
-    display: none;
+.shooter {
+	background-color: purple;
 }
 
-#startScreen{
-    
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: url('/img/startScreenBackground.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.laser {
+	background-color: orange;
 }
 
-#startButton{
-    cursor: pointer; 
-    position: relative; 
-    display: inline-block;
-}
-
-#restartScreen{
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: url('/img/startScreenBackground.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: none;
-    align-items: center;
-    justify-content: center;
-}
-
-#restartButton{
-    cursor: pointer; 
-    position: relative; 
-    display: inline-block;
+.boom {
+	background-color: red;
 }
